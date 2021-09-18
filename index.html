@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML 201</title>
+    <link rel="shortcut icon" href="images/favicon/favicon-mask.png" type="image/png">
+</head>
+<body>
+
+    <h1 id="top">
+        Welcome to HTML 201
+    </h1>
+
+    <a href="#bottom">Scroll to bottom of the page.</a>
+
+    <p>
+        <span style="text-decoration: underline;">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span> Recusandae, excepturi doloribus? Quam neque placeat incidunt quasi a eum ab modi ipsam recusandae architecto, consequuntur et magnam aliquam quaerat exercitationem consequatur?
+    </p>
+
+    <hr>
+
+    <img src="Images/old_car.jpg" alt="Old Car">
+
+    <hr>
+
+    <table border="1" width="60%">
+        <tr>
+            <td>Cell 1</td>
+            <td>Cell 1.2</td>
+            <td>Cell 1.3</td>
+            <td>Cell 1.4</td>
+            <td>Cell 1.5</td>
+        </tr>
+        <tr>
+            <td>Cell 2</td>
+            <td>Cell 2.2</td>
+            <td>Cell 2.3</td>
+            <td>Cell 2.4</td>
+            <td>Cell 2.5</td>
+        </tr>
+
+    </table>
+
+    <hr>
+
+    <table border="1" width="80%">
+        <tr>
+            <td>First Cell here</td>
+            <td>Second Cell here</td>
+        </tr>
+        <tr>
+            <td>Row 2, Cell 1</td>
+            <td>Row 2, Cell 2</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h4>Merging table cells and rows</h4>
+
+    <table border="1" width="100%">
+        <tbody>
+            <!-- Row 1 -->
+            <tr>
+                <td colspan="3">1</td>
+            </tr>
+            <!-- Row 2 -->
+            <tr> 
+                <td rowspan="2">1</td>
+                <td colspan="2">2</td>
+            </tr>
+            <!-- Row 3 -->
+            <tr> 
+                <td>2</td>
+                <td>3</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <h4>Table and Cell Width</h4>
+    <table border="1" width="50%">
+        <tbody>
+            <tr>
+                <!-- Table header -->
+                <th colspan="2">
+                    <h3><b>Welcome to my website</b></h3>
+                </th>
+            </tr>
+            <tr>
+                <td width="20%">
+                    <h3>Navigation</h3>
+                </td>
+                <td>
+                    <h3><i>Content</i></h3>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+
+    <style>
+        .classNameHere {
+            padding: 40px; 
+            color: white; 
+            background-color: black;
+        }
+        .uppercase {
+            text-transform: uppercase;
+        }
+        #testingId {
+            border: 15px solid red;
+        }
+    </style>
+
+    <div class="classNameHere">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque odit natus voluptatum veritatis similique atque architecto ipsum earum consectetur? Ratione placeat laborum eaque magnam odio repudiandae reiciendis dolores maxime minus?
+    </div>
+    <div id="testingId">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere culpa explicabo officia doloremque possimus harum voluptatum necessitatibus perspiciatis, iusto vero beatae voluptate, ducimus consequuntur nemo placeat accusantium totam sed quo.
+        </p>
+    </div>
+    <div class="classNameHere uppercase">
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam provident temporibus quas quibusdam quo? Ut nobis cumque vero iste assumenda, rem rerum commodi molestias architecto possimus, ducimus cupiditate labore vel!
+        </p>
+    </div>
+
+    <hr>
+
+    <h3>Format Code</h3>
+    <pre>
+        Some    stuff    here &lt;b&gt;This is bold&lt;/b&gt;
+        Second  line     here
+    </pre>
+    <p>
+        <code>Lorem ipsum dolor, sit</code> amet consectetur adipisicing elit. Dignissimos unde consequatur cumque dolores id aliquam quos error. Officia necessitatibus magnam illo aspernatur, sit corrupti molestiae similique veritatis illum, quas autem?
+    </p>
+
+    <h3>Forms</h3>
+
+<form action="">
+    <div>
+        <input required name="email" type="email" value="Hello World" placeholder="Enter your name">
+    </div>
+    <div>
+        <textarea required name="address" cols="20" rows="5" placeholder="This is a placeholder"></textarea>
+    </div>
+    <div>
+        <select name="selected_option">
+            <option value="" disabled="disabled">-Disabled-</option>
+            <option value="Value1">This is Value 1</option>
+            <option value="Value2">This is Value 2</option>
+            <option value="default-value" selected='selected'>This is the default selected option</option>
+        </select>
+    </div>
+    <div>
+        <button type="submit">Click Me!</button>
+    </div>
+    
+    </form>
+    <hr>
+    <h3>Embeds</h3>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/fyKt0Slgod4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media" allowfullscreen></iframe>
+
+
+    <hr>
+    <h3>This is the bottom of the page.</h3>
+    <div id="bottom">  
+    <a href="#top">Go to top of this page.</a>
+    <sup>&copy;</sup> 2021
+    </div>
+
+    
+    
+</body>
+</html>
